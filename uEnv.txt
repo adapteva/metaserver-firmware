@@ -1,0 +1,5 @@
+bitstream=system.bit.bin
+bootargs=root=/dev/mmcblk0p2 rw rootwait
+
+bitstream_addr=0x4000000
+uenvcmd=load mmc $sdbootdev:$partid $bitstream_addr $bitstream; fpga load 0 $bitstream_addr $filesize && echo Bitstream loaded
