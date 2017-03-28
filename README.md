@@ -7,8 +7,8 @@ support selected.
 Add Xilinx tools (including aarch64 toolchain) to path.
 
 ```
-source /opt/Xilinx/Vivado/2016.4/settings.sh
-source /opt/Xilinx/SDK/2016.4/settings.sh
+source /opt/Xilinx/Vivado/2016.4/settings64.sh
+source /opt/Xilinx/SDK/2016.4/settings64.sh
 ```
 
 # Firmware image (boot.bin) components
